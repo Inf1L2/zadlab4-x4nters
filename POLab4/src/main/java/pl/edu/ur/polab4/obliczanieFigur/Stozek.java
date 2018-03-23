@@ -40,7 +40,7 @@ public class Stozek {
     }
     
     private float obliczObjetosc(){
-        return 1 / 3 * ( 3.14f * promienPodstawy * promienPodstawy * wysokosc );
+        return 1f / 3f * ( 3.14f * promienPodstawy * promienPodstawy * wysokosc );
     }
     
     public void pokazDane(){

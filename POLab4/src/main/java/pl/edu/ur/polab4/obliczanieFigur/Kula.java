@@ -24,11 +24,11 @@ public class Kula {
     }
     
     private float obliczPole(){
-        return 4 * 3.14f * promien * promien;
+        return 4f * 3.14f * promien * promien;
     }
     
     private float obliczObjetosc(){
-        return 4 / 3 * ( 3.14f * promien * promien * promien );
+        return 4f / 3f * ( 3.14f * promien * promien * promien );
     }
     
     public void pokazDane(){
